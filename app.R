@@ -30,7 +30,6 @@ header <- dashboardHeader(
 )
 
 sidebar <- dashboardSidebar(
-  sidebarSearchForm(label = "Search...", "searchText", "searchButton"),
   sidebarMenu(id = "sidebarmenu",
     menuItem("Introduction", tabName = "intro", icon = icon("home")),
     menuItem("Distribution", tabName = "dist", icon = icon("th")),
@@ -46,8 +45,15 @@ sidebar <- dashboardSidebar(
              menuSubItem("T-Distributions", tabName = "T-"),
              menuSubItem("Uniform distribution", tabName = "Uniform")),
     menuItem("Source code for app", icon = icon("file-code-o"),
-             href = "https://github.com/Abbasjalili/Shiny-Project/blob/d799e1183352a66345e0a293c594bee7c5aaa19a/app.R"
+             href = "https://github.com/Abbasjalili/Shiny-Project/blob/d799e1183352a66345e0a293c594bee7c5aaa19a/app.R"),
+    menuItem("Reference", icon = icon("list"),
+             menuSubItem("Reference 1", 
+                         href = "https://www.analyticssteps.com/blogs/10-types-statistical-data-distribution-models"),
+             menuSubItem("Reference 2", 
+                         href = "https://www.analyticssteps.com/blogs/10-types-statistical-data-distribution-models")
+             
     )
+             
   )
 )
 
