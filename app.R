@@ -46,7 +46,7 @@ sidebar <- dashboardSidebar(
              menuSubItem("T-Distributions", tabName = "T-"),
              menuSubItem("Uniform distribution", tabName = "Uniform")),
     menuItem("Source code for app", icon = icon("file-code-o"),
-             href = "https://github.com/rstudio/shinydashboard/blob/gh-pages/_apps/sidebar/app.R"
+             href = "https://github.com/Abbasjalili/Shiny-Project/blob/d799e1183352a66345e0a293c594bee7c5aaa19a/app.R"
     )
   )
 )
