@@ -67,7 +67,7 @@ body <- dashboardBody(
                 width = 12,
                 background = "olive",
                 HTML(paste(h4("This is a project for Stat 651 class in Fall-2021 at CSU East Bay. I created this shiny app to 
-                              introduce the ten different types of statistical data distribution models. Data distribution is 
+                              introduce ten different types of statistical data distribution models. Data distribution is 
                               a function that determines the values of a variable and quantifies relative frequency, and it 
                               transforms raw data into graphical methods to give valuable information. Therefore, it becomes 
                               substantial to understand the kind of distribution that a population has that assists in applying 
