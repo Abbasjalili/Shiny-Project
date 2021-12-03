@@ -71,7 +71,7 @@ body <- dashboardBody(
                               a function that determines the values of a variable and quantifies relative frequency, and it 
                               transforms raw data into graphical methods to give valuable information. Therefore, it becomes 
                               substantial to understand the kind of distribution that a population has that assists in applying 
-                              proper statistical techniques/methods. In statistics, we have ten types of models for data listed below:"), "<br>",
+                              proper statistical techniques/methods. In this project, I present ten types of models for data distributions. listed below:"), "<br>",
                               "1- Bernoulli’s Distribution", "<br>","2- Binomial Distribution", "<br>",
                               "3- Normal (Gaussian) Distribution", "<br>","4- Poisson Distribution", "<br>",
                               "5- Exponential Distribution", "<br>","6- Multinomial Distribution", "<br>",
