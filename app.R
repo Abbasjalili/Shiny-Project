@@ -50,7 +50,7 @@ sidebar <- dashboardSidebar(
              menuSubItem("Reference 1", 
                          href = "https://www.analyticssteps.com/blogs/10-types-statistical-data-distribution-models"),
              menuSubItem("Reference 2", 
-                         href = "https://www.analyticssteps.com/blogs/10-types-statistical-data-distribution-models")
+                         href = "https://www.rdocumentation.org/")
              
     )
              
